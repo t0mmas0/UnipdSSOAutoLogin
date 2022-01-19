@@ -35,6 +35,6 @@ document.getElementById("radio2").checked = true;
 if(auto){
 document.getElementById("login_button_js").click();
 }
- }, 2000);
+ }, 500);
 
 
