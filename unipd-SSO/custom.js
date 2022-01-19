@@ -23,7 +23,8 @@ setTimeout(() => {
 document.getElementById("j_username_js").value = id;
 document.getElementById("password").value = pass;
 document.getElementById("radio2").checked = true;
-//document.getElementById("login_button_js").click();
+//to be disabled from options
+document.getElementById("login_button_js").click();
  }, 2000);
 
 
