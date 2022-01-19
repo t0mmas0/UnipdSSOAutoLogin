@@ -10,10 +10,14 @@ btn.addEventListener('click', commit);
 function commit() {
 	  var User = document.getElementById("User").value;
 	  var Pass = document.getElementById("Pass").value;
+	  var auto = document.getElementById("auto").checked;
 	chrome.storage.sync.set({identifier: User}, function(){
-			console.log("Username set to"+ User);
-		});
+		console.log("Username set to"+ User);
+	});
 	chrome.storage.sync.set({credentials: Pass}, function(){
-			console.log("Password set to "+ Pass);
-		});
+		console.log("Password set to "+ Pass);
+	});
+	chrome.storage.sync.set({Auto: auto}, function(){
+		console.log("Auto set to "+ auto);
+	});
 }
