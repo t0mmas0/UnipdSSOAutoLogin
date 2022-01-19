@@ -7,7 +7,7 @@ Estensione di chrome che permette il login automatico all' SSO di ateneo
  
  ## Istruzioni per aggiungerlo a chrome
  
- Accedere alla sezione Estensioni disponibile [qua](chrome://extensions/).
+ Accedere alla sezione Estensioni disponibile [qua](chrome://extensions/) chrome://extensions/.
  
  Selezionare carica estensione non pacchetizzata.
  
