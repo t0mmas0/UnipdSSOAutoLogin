@@ -3,3 +3,24 @@ body{
     width: 200px;
 }
 
+#User {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+}
+#Pass {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+}
+.button {
+  background-color: #b00617; 
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
